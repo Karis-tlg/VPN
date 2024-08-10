@@ -1,0 +1,20 @@
+name: HMTopUp
+version: '1.1.1 Beta5'
+main: net.heavenmine.hmtopup.HMTopUp
+authors: [FuxWa]
+description: This plugin made by HeavenMine Team
+website: heavenmine.net
+softdepend:
+  - PlaceholderAPI
+  - floodgate
+commands:
+  napthe:
+    description: Nap the command # Mô tả của lệnh
+  napbank:
+    description: Nap bank command # Mô tả của lệnh
+  nganhang:
+    description: Ngan hang command # Mô tả của lệnh
+  hmtopup:
+    description: HMTopUp command # Mô tả của lệnh
+  napthenhanh:
+    description: Nap the nhanh command

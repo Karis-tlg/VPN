@@ -1,0 +1,27 @@
+#config site nap the o day
+
+version: 1.0.0
+
+#chi bat 1 site topup, bat 2 site tro len se bi loi
+thesieutoc:
+  enable: true #co bat cai nay hay khong, true de bat
+  api-key: "" #thesieutoc api key
+  api-secret: "" #thesieutoc api secret
+
+
+#qua site can tich hop de them url callback
+other-site: #neu k biet config thi hoi owner
+  enable: false #co bat cai nay hay khong, true de bat
+  url: "" #url charging site nap the vd: http://gachthe1s.com/chargingws/v2, http://thesieure.com/chargingws/v2 ,...
+  port: 8080 #port de check callback napthe
+  partnerID: "" #lay tren site nap the
+  partnerKey: "" #lay tren site nap the
+
+#---mau config---
+
+#other-site:
+#  enable: true
+#  url: "http://card3s.com/api/charging"
+#  port: 25566
+#  partnerID: "YOUR_PARTNER_ID"
+#  partnerKey: "YOUR_PARTNER_KEY"

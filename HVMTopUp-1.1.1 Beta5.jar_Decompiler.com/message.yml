@@ -1,0 +1,65 @@
+#chinh sua tin nhan o day, unikey cua toi bi hu, ae sua lai dung nhe
+
+version: 1.0.1
+
+#===general===
+full-inv: "&cTui do cua ban da day!"
+disable-bank: "&cServer chua ho tro nap the qua bank!"
+only-player: "&cLệnh này chỉ có thể được sử dụng bởi người chơi."
+no-permission: "&cBan khong co quyen !"
+receive-qr-code: "&6Ban da nhan dc QR Code!"
+status-success: "Thanh cong"
+status-fail: "That bai"
+status-inProgress: "Dang xu ly"
+history-title: "Lich su nap the"
+detail-title: "Chi tiet nap the"
+prevPage: "Trang truoc"
+prevPage-lore: "Nhan de quay lai trang truoc"
+nextPage: "Trang sau"
+nextPage-lore: "Nhan de qua trang sau"
+closePage: "Dong"
+closePage-lore: "Nhan de dong menu"
+currentPage: "&aTrang hien tai: &f"
+sum-topup-all-time: "&7Tong nap toan thoi gian: &f"
+sum-topup-day: "&7Tong nap trong ngay: &f"
+sum-topup-week: "&7Tong nap trong tuan: &f"
+sum-topup-month: "&7Tong nap trong thang: &f"
+
+#===gui java===
+napbank-java-title: "Chọn loai bank"
+napbank-java-chooseBank: "&7Nạp thẻ bằng &e"
+napbank-java-disableBank: "&cAdmin khong ho tro nap the qua &e"
+amount-empty: "&cVui long nhap so tien nap"
+please-type-amount: "Nhap so tien can nap..."
+
+napthe-java-listCard-title: "Chọn loai thẻ nạp"
+napthe-java-chooseCard: "&7Nạp thẻ bằng card &e"
+napthe-java-amountCard-title: "Chọn giá trị thẻ nạp"
+napthe-java-amountBank-title: "Chon gia tri nap bank"
+napthe-java-amountCard: "&7Nạp thẻ &e"
+napthe-java-amountBank: "&7Nap bank"
+please-type-seri: "Nhập seri của thẻ..."
+please-type-pin: "Nhập pin của thẻ..."
+
+#====form bedrock===
+napbank-be-title: "Giao diện nạp bank"
+napbank-be-header: "Giao dien nap bank"
+napbank-be-listBank: "Loai ngan hang"
+napbank-be-amount: "So tien nap"
+napbank-be-footer: "Cam on ban da ung ho server"
+
+napthe-be-title: "Giao diện nạp"
+napthe-be-header: "Giao dien nap the"
+napthe-be-listCard: "Loai the"
+napthe-be-amount: "Menh gia"
+napthe-be-seri: "So seri"
+napthe-be-code: "Ma the"
+napthe-be-confirm: "Xac nhan ban da nhap dung seri va ma the"
+napthe-be-footer: "Cam on ban da ung ho server"
+seri-empty: "Vui long nhap seri"
+pin-empty: "Vui long nhap ma the"
+not-confirm: "Ban can phai xac nhan minh da nhap dung seri va ma the"
+
+
+
+

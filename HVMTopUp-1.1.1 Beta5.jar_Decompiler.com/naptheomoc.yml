@@ -1,0 +1,76 @@
+#config naptheomoc o day
+
+version: 1.0.0 #dont touch
+
+alltime: #kiem tra toan thoi gian
+  enable: false #co bat cai nay hay khong - true de bat
+  money:
+    10000: #chi ghi so (0-9) khong ghi bat cu ky tu gi khac
+      - 'bc Thanh nien %player% da nap du 10.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    20000:
+      - 'bc Thanh nien %player% da nap du 20.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    30000:
+      - 'bc Thanh nien %player% da nap du 30.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    50000:
+      - 'bc Thanh nien %player% da nap du 50.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    100000:
+      - 'bc Thanh nien %player% da nap du 100.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+month: #kiem tra trong thang
+  enable: false #co bat cai nay hay khong - true de bat
+  money:
+    10000: #chi ghi so (0-9) khong ghi bat cu ky tu gi khac
+      - 'bc Thanh nien %player% da nap du 10.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    20000:
+      - 'bc Thanh nien %player% da nap du 20.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    30000:
+      - 'bc Thanh nien %player% da nap du 30.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    50000:
+      - 'bc Thanh nien %player% da nap du 50.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    100000:
+      - 'bc Thanh nien %player% da nap du 100.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+week: #kiem tra trong tuan bat dau tu chu nhat
+  enable: false #co bat cai nay hay khong - true de bat
+  money:
+    10000: #chi ghi so (0-9) khong ghi bat cu ky tu gi khac
+      - 'bc Thanh nien %player% da nap du 10.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    20000:
+      - 'bc Thanh nien %player% da nap du 20.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    30000:
+      - 'bc Thanh nien %player% da nap du 30.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    50000:
+      - 'bc Thanh nien %player% da nap du 50.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    100000:
+      - 'bc Thanh nien %player% da nap du 100.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+day: #kiem tra trong ngay tu 00h01p - 23h59
+  enable: false #co bat cai nay hay khong - true de bat
+  money:
+    10000: #chi ghi so (0-9) khong ghi bat cu ky tu gi khac
+      - 'bc Thanh nien %player% da nap du 10.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    20000:
+      - 'bc Thanh nien %player% da nap du 20.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    30000:
+      - 'bc Thanh nien %player% da nap du 30.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    50000:
+      - 'bc Thanh nien %player% da nap du 50.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'
+    100000:
+      - 'bc Thanh nien %player% da nap du 100.000VND va nhan duoc qua theo moc tuong ung'
+      - 'say Da trao qua cho thanh nien %player%'

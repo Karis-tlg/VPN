@@ -1,0 +1,78 @@
+#Thank you for your download our plugin
+#This plugin made by HeavenMine Team
+#Discord: https://discord.gg/rbVpgMFcz3
+#If you have any questions please go to discord and create tickets :D
+
+version: 1.0.5 #dont touch
+
+debug: false
+
+prefix: "&6[HMTopUp] "
+
+license:
+  key: "LICENSE_KEY"
+
+bank:
+  enable: false #bat tat nap the bang ngan hang
+  bonus: 0.2 #ti le nhan them khi nap qua bank (1 la 100%, 0.2 la 20%)
+  noidung: "NAPBANK" #noi dung chuyen khoan, viet lien khong dau
+  time-check: 5 #phut
+
+event: #config event nap the o day
+  enable: false #bat/tat event nap the
+  bonus: 0.5 #ti le nhan them khi nap the vao su kien (1 la 100%, 0.5 la 50%)
+
+storage:
+  type: sqlite #sqlite or mysql
+  host: localhost
+  port: 3306
+  username: root
+  password:
+  dbname: database
+
+topup: #config khi member nap the
+  10000:
+    ratio: 10
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 10.000VND va nhan duoc %amount% coin'
+      - 'p give %player% %amount%'
+  20000:
+    ratio: 20
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 20.000VND'
+      - 'p give %player% %amount%'
+  30000:
+    ratio: 30
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 30.000VND'
+      - 'p give %player% %amount%'
+  50000:
+    ratio: 50
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 50.000VND'
+      - 'p give %player% %amount%'
+  100000:
+    ratio: 100
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 100.000VND'
+      - 'p give %player% %amount%'
+  200000:
+    ratio: 200
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 200.000VND'
+      - 'p give %player% %amount%'
+  300000:
+    ratio: 300
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 300.000VND'
+      - 'p give %player% %amount%'
+  500000:
+    ratio: 500
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 500.000VND'
+      - 'p give %player% %amount%'
+  1000000:
+    ratio: 1000
+    cmd:
+      - 'bc Thanh nien %player% da nap thanh cong 1.000.000VND'
+      - 'p give %player% %amount%'
