@@ -1,0 +1,8 @@
+#!name=Unlock CamScanner SVIP
+#!desc=Unlock CamScanner SVIP Subscription
+
+[MITM]
+hostname = %APPEND% api.camscanner.com
+
+[Script]
+CamScanner = type=http-response,pattern=^https://api\.camscanner\.com/api/v\d+/subscription,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lonely0811/Surge/refs/heads/main/js/camscaner.js
