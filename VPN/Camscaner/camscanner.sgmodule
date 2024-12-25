@@ -16,5 +16,5 @@ hostname =%APPEND% ap*.intsig.net
 
 [Script]
 
-CamScanner=type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js
+CamScanner=type=http-response,pattern=https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Karis-tlg/VPN/refs/heads/main/VPN/Camscaner/camscaner.js
 
